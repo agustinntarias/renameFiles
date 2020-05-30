@@ -1,5 +1,5 @@
 #!/bin/bash
-# remember to give make file executable with chmod +x ./renameFiles.sh
+# remember to make file executable with chmod +x ./renameFiles.sh
 for file in "$1"/*
 do 
 	exp1='\(^.*\)\([^0-9]\)\([0-9]\)$'
