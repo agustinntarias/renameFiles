@@ -1,7 +1,7 @@
 #!/bin/bash
 # remember to make file executable with chmod +x ./renameFiles.sh
 for file in "$1"/*
-do 
+do
 	exp1='\(^.*\)\([^0-9]\)\([0-9]\)$'
 	exp2='\(^.*\)\([^0-9]\)\([0-9]\{2\}\)$'
 
